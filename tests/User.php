@@ -19,22 +19,22 @@ class User implements UserInterface
         return $this;
     }
 
-    public function getUserId()
+    public function getUserId(): int
     {
         return 12;
     }
 
-    public function getUserLogin()
+    public function getUserLogin(): string
     {
         return 'roni@example.com';
     }
 
-    public function getUserLoginName()
+    public function getUserLoginName(): string
     {
         return 'email';
     }
 
-    public function getUserPassword()
+    public function getUserPassword(): string
     {
         return 'p4ssw0rd';
     }
